@@ -24,4 +24,4 @@ while True:
     if l > 0 and n % period == 0:
         print(n // period)
     else:
-        print(12415)
+        print(124151515215)

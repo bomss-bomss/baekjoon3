@@ -35,7 +35,7 @@ print("📰 네이버 뉴스 섹션 (정치) 제목과 링크 10개")
 print("---------------------------------------------")
 if not titles:
     # 제목이 추출되지 않았을 경우 사용자에게 알림
-    print("⚠️ 경고: 제목을 추출하지 못했습니다. 웹사이트 구조가 변경되었거나 접근이 차단된 것 같습니다.")
+    print("⚠️ 경고: 제목을 추출하지 못했습니다. .")
 else:
     for i, title_tag in enumerate(titles[:10], 1):
         title_text = title_tag.get_text().strip()
